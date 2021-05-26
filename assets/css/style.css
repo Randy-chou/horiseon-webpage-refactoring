@@ -1,3 +1,19 @@
+/**
+ * Stylesheet for the Horiseon Website 
+ * 
+ * Index:
+ * - Whole Website
+ * - Navigation bar
+ * - Figure image
+ * - Main Sections
+ * - Sidebar
+ * - Footer
+ */
+
+/**
+ * Whole Website
+ */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,6 +29,9 @@ p {
     font-size: 16px;
 }
 
+/**
+ * Navigation Bar
+ */
 
 nav {
     padding: 20px;
@@ -51,6 +70,10 @@ a {
     color: #ffffff;
 }
 
+/**
+ * Figure Image
+ */
+
 figure {
     height: 800px;
     width: 100%;
@@ -59,6 +82,10 @@ figure {
     background-size: cover;
     background-position: center;
 }
+
+/**
+ * Main Sections
+ */
 
 main {
     width: 75%;
@@ -93,6 +120,9 @@ main section h2 {
     font-size: 36px;
 }
 
+/**
+ * Sidebar
+ */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -119,6 +149,9 @@ aside section h3 {
     text-align: center;
 }
 
+/**
+ * Footer
+ */
 footer {
     padding: 30px;
     clear: both;
